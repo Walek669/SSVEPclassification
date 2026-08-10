@@ -1,6 +1,5 @@
 function [AllData,y_AllData]=PreProcess(channels,sample_length,sample_interval,subban_no,totalsubject,totalblock,totalcharacter,sampling_rate,dataset)
 % Preprocessing for Deep Neural Network in 
-% A Deep Neural Network for SSVEP-based Brain Computer Interfaces 
 % Input: Please check main.m
 % Output: -AllData: Preprocessing the data with bandpass filter/s,
 %					Dimension of AllData:
